@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- jQuery and jQuery-UI -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+    <link rel='stylesheet' href='./jquery-ui.min.css' />
+    <link rel='stylesheet' href='./jquery-ui.structure.min.css' />
+    <link rel='stylesheet' href='./jquery-ui.theme.min.css' />
+
+    <!-- Custom styles-->
+    <link rel='stylesheet' href='./styles.css' />
+
+</head>
+<body>
+    <div class='component'>
+
+        <h1 class='title'>Color Picker</h1>
+        <fieldset>
+            <legend>Select</legend>
+
+            <div class='inputs-container'>
+                <label class='input-label'>
+                    <span class='input-title'>Red</span>
+                    <input type='radio' value='red' name='color' />
+                </label>
+                <label class='input-label'>
+                    <span class='input-title'>Green</span>
+                    <input type='radio' value='green' name='color' />
+                </label>
+                <label class='input-label'>
+                    <span class='input-title'>Blue</span>
+                    <input type='radio' value='blue' name='color' />
+                </label>
+            </div>
+           
+
+            <div id='slider'></div>
+
+            <div class='inputs-container'>
+                <label class='input-label'>
+                    <span>Color</span>
+                    <input type='checkbox' name='target' value='color' id='color'/>
+                </label>
+               
+                <label class='input-label'>
+                    <span>Background</span>
+                    <input type='checkbox' name='target' value='background' id='background' />
+                </label>
+            </div>
+             
+        </fieldset>
+        <h2 class='result'>Result:</h2>
+        <div class='text'>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, quis obcaecati optio assumenda ipsum praesentium exercitationem eum expedita officiis, repellat dolores totam, in dolorem blanditiis. Possimus labore fugiat voluptatum dolorem.
+        </div>
+    </div>
+    
+
+    <script src='main.js'></script>
+</body>
+</html>
